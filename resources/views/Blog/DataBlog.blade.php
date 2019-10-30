@@ -4,7 +4,7 @@
 
 
 <head>
-  <title>Mamang Garox</title>
+  <title>Tambah Blog</title>
   @include('Template.head')
 </head>
 
@@ -28,10 +28,11 @@
         <div class="row mb-2">
           <div class="col-sm-6">
             <h1 class="m-0 text-dark">Starter Page</h1>
-          </div><!-- /.col -->  
+          </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
+              <li class="breadcrumb-item active">Data Blog</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -42,7 +43,7 @@
 
     <!-- Main content -->
     <div class="content">
-      <h3>Halaman Utama<h3>
+        <h3>Data Blog<h3>
       <!-- ISI HALAMAN -->
     </div>
 

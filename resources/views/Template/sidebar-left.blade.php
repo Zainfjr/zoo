@@ -33,15 +33,15 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <a href="{{url('tambah-blog')}}" class="nav-link active">
                   <i class="fas fa-check-circle nav-icon"></i>
-                  <p>Active Page</p>
+                  <p>Add Blog</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('data-blog')}}"  class="nav-link">
                   <i class="fas fa-times-circle nav-icon"></i>
-                  <p>Inactive Page</p>
+                  <p>Data Blog</p>
                 </a>
               </li>
             </ul>
@@ -57,12 +57,6 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="fas fa-plus-square nav-icon"></i>
-                  <p>Add</p>
-                </a>
-              </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">
                 <i class="fab fa-instagram"></i>
